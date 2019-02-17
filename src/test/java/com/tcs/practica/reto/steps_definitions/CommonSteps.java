@@ -14,7 +14,8 @@ public class CommonSteps {
 	public void init() {
 		OnStage.setTheStage(Cast.ofStandardActors());
 		OnStage.theActorCalled("Chu Chu ua");
-		OnStage.theActorInTheSpotlight().can(BrowseTheWeb.with(OwnWebDriver.withChrome().enLaURL("https://www.elempleo.com/cross/")));
+		OnStage.theActorInTheSpotlight()
+				.can(BrowseTheWeb.with(OwnWebDriver.withChrome().enLaURL("https://www.elempleo.com/cross/")));
 	}
 
 	@Before

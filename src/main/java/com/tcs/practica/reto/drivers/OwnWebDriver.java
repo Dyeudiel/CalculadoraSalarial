@@ -23,7 +23,7 @@ public class OwnWebDriver {
 		ChromeOptions chromeOptions = new ChromeOptions();
 		HashMap<String, Object> chromePrefs = new HashMap();
 		chromePrefs.put("download.default_directory", downloadPath);
-		chromeOptions.addArguments("--start-maximized");
+		chromeOptions.addArguments("--start-Minimize");
 		chromeOptions.setExperimentalOption("prefs", chromePrefs);
 
 		listOwnWebDriver.add(new OwnWebDriver());

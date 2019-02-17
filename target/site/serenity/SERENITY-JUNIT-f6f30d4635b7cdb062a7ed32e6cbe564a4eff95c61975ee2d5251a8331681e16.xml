@@ -1,1 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Calculadora salarial" skipped="0" tests="1" time="42.3" timestamp="2019-02-17 03:35:59"><testcase name="Calculadora salarial"/></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Calculadora salarial" skipped="0" tests="1" time="45.99" timestamp="2019-02-17 03:45:23"><testcase name="Calculadora salarial"><error type="java.lang.NullPointerException"/><system-err>null&#13;
+com.tcs.practica.reto.steps_definitions.CalculadoraSalarialSteps.estoyEnLaPaginaPrincipalDeElEmpleoCom(CalculadoraSalarialSteps.java:15)&#13;
+✽.Estoy en la pagina principal de ElEmpleo.com(src/test/resources/features/calculadorasalarial.feature:6)&#13;
+</system-err></testcase></testsuite>
